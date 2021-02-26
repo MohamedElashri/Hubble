@@ -8,9 +8,7 @@ This analysis is an extension of the [zonination](https://github.com/zonination/
 My main implementation is a python and I relied about estimating Hubble constant first then relied on the fact the age of universe is reciprocal of Hubble constant.
 
 Main plort is 
-
-![GitHub Logo](/Plots/Plot_2.png)
-Format: ![Hubble constant](https://github.com/MohamedElashri/Hubble/blob/main/Plots/Plot_2.png)
+![Hubble constant](https://github.com/MohamedElashri/Hubble/blob/main/Plots/Plot_2.png)
 
 
 **hint**  Age of the universe is not 1/H_0 but there should be some correction factor that account for relative abundance of dark energy/(dark) matter/radiation and it is close of 1 which why we use this assumption. 
