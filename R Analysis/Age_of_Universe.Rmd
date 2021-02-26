@@ -1,6 +1,8 @@
 ---
 title: "Hubble"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -10,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(RCurl)
-download.file("https://raw.githubusercontent.com/MohamedElashri/Hubble/main/data.csv",destfile="data.csv",method="libcurl")
+download.file("https://raw.githubusercontent.com/MohamedElashri/Hubble/main/Data/data.csv",destfile="data.csv",method="libcurl")
 
 ```
 ```{r}
@@ -69,7 +71,7 @@ ggplot(galaxies2,aes(distmpc,vgsr))+
        subtitle="The inverse of the slope of this line is equal to 13.77 billion years",
        x="Distance from Earth (MPc)",
        y="Velocity Away from Earth (km/s)",
-       caption="created by /Saikat Chowdhury")+
+       caption="created by /Mohamed Elashri")+
   z_theme()
 
 ```
